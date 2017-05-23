@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-JAVA_OPTS: "-Djava.security.auth.login.config=kafka-jaas.conf -Djavax.security.auth.useSubjectCredsOnly=true -Dspring.profiles.active=dev"
+java_opts: -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Djava.security.auth.login.config=kafka-jaas.conf -Djavax.security.auth.useSubjectCredsOnly=true -Dspring.profiles.active=dev
