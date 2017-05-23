@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts:"-Djava.security.auth.login.config=kafka-jaas.conf -Djavax.security.auth.useSubjectCredsOnly=true"
+java_opts:"-Djava.security.auth.login.config=kafka-jaas.conf -Djavax.security.auth.useSubjectCredsOnly=true -Dspring.profiles.active=dev"
